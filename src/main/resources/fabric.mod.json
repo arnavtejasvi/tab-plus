@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tabplus",
+  "version": "${version}",
+  "name": "Tab+",
+  "description": "Replaces the vanilla tab list with a social-aware overlay: numerical ping, player notes, relationship tags, and an in-list filter.",
+  "authors": [
+    "arnav"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.arnav.tabplus.TabPlusClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "tabplus.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

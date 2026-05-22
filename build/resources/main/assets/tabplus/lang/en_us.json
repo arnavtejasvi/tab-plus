@@ -1,0 +1,18 @@
+{
+  "key.tabplus.note": "Edit Player Note",
+  "key.tabplus.tag": "Cycle Relationship Tag",
+  "key.categories.tabplus": "Tab+",
+
+  "tabplus.tag.none": "",
+  "tabplus.tag.friend": "Friend",
+  "tabplus.tag.ally": "Ally",
+  "tabplus.tag.rival": "Rival",
+  "tabplus.tag.enemy": "Enemy",
+
+  "tabplus.note.title": "Edit Note",
+  "tabplus.note.placeholder": "Note about this player...",
+  "tabplus.note.save": "Save",
+  "tabplus.note.clear": "Clear",
+
+  "tabplus.filter.hint": "Filter: "
+}

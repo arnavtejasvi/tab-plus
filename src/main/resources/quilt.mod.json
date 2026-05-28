@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.arnav",
+    "id": "tabplus",
+    "version": "${version}",
+    "metadata": {
+      "name": "Tab+",
+      "description": "Replaces the vanilla tab list with a social-aware overlay.",
+      "contributors": { "arnav": "Owner" },
+      "license": "MIT"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "client_init": ["com.arnav.tabplus.TabPlusClient"]
+    },
+    "depends": [
+      { "id": "quilt_loader", "versions": ">=0.19.0" },
+      { "id": "quilted_fabric_api", "versions": "*" },
+      { "id": "minecraft", "versions": ">=1.21.11 <1.22" }
+    ]
+  },
+  "mixin": ["tabplus.client.mixins.json"]
+}

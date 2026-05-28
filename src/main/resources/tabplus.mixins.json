@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.arnav.tabplus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InGameHudMixin",
+    "PlayerTabOverlayAccessor",
+    "KeyboardHandlerMixin"
+  ],
+  "mixins": [],
+  "minVersion": "0.8"
+}

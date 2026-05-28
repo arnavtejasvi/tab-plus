@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.arnav.tabplus.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "InGameHudMixin",
+    "PlayerListHudAccessor",
+    "KeyboardMixin"
+  ]
+}

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+    modId="tabplus"
+    version="${mod_version}"
+    displayName="Tab+"
+    description="Replaces the vanilla tab list with a social-aware overlay: numerical ping, player notes, relationship tags, and an in-list filter."
+
+[[dependencies.tabplus]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.tabplus]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1,27)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config="tabplus.mixins.json"
